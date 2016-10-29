@@ -1,0 +1,25 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <h3><b>{{author}}'s</b> list of comments</h3>
+                <table class="table table-striped table-bordered">
+                    <tr>
+                        <th>Movie</th>
+                        <th>Rating</th>
+                        <th>Comment</th>
+                        <th>Action</th>
+                    </tr>
+                    {{# each ac}}
+                    <tr>
+                        <td>{{this.movie}}</td>
+                        <td><input class="movieRating" name="movieRating" value="{{this.rating}}" class="rating-loading"></td>
+                        <td>{{this.comment}}</td>
+                        <td><a href="comment/delete/{{this.commentId}}/{{this.author}}">Delete</a></td>
+                    </tr>
+                    {{/each}}
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
