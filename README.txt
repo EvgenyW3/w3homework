@@ -8,3 +8,5 @@ Pressing "Movies" in navbar gets you to main page.
 Movie's title is a link to comments page.
 
 Author's name is a link to page where all this author comments are listed
+
+Tested in Google Chrome browser
