@@ -1,4 +1,4 @@
-In project derectory run
+In project directory run
 
 npm install (optional, all node_modules are already installed)
 npm start (to run project, don't forget to run your mongod as well)
